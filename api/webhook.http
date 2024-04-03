@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/webhook
+Content-Type: application/json
+
+{
+  "message": "Hello, World!"
+}
+
+
+###
+
+POST https://api.telegram.org/bot6638552436:AAGwS-HmecprZrTrS1Uk6ZSAfgqrdOAu_X0/setWebhook
+Content-Type: application/json
+
+{
+    "url": "https://telegram-bot-api-playground.vercel.app/api/webhook"
+}
